@@ -47,59 +47,61 @@
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel1.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel1.Location = new System.Drawing.Point(26, 66);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(43, 16);
+            this.gunaLabel1.Size = new System.Drawing.Size(37, 18);
             this.gunaLabel1.TabIndex = 0;
             this.gunaLabel1.Text = "Width";
             // 
             // gunaLabel2
             // 
             this.gunaLabel2.AutoSize = true;
-            this.gunaLabel2.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel2.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.Location = new System.Drawing.Point(26, 98);
             this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(46, 16);
+            this.gunaLabel2.Size = new System.Drawing.Size(41, 18);
             this.gunaLabel2.TabIndex = 1;
             this.gunaLabel2.Text = "Height";
             // 
             // gunaLabel3
             // 
             this.gunaLabel3.AutoSize = true;
-            this.gunaLabel3.Font = new System.Drawing.Font("Rockwell", 9.75F);
+            this.gunaLabel3.Font = new System.Drawing.Font("Roboto Condensed", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel3.Location = new System.Drawing.Point(26, 136);
             this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(89, 16);
+            this.gunaLabel3.Size = new System.Drawing.Size(81, 18);
             this.gunaLabel3.TabIndex = 2;
             this.gunaLabel3.Text = "Select Symbol";
             // 
             // widthTextbox
             // 
-            this.widthTextbox.BackColor = System.Drawing.Color.White;
+            this.widthTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
             this.widthTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.widthTextbox.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.widthTextbox.Font = new System.Drawing.Font("Rockwell", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.widthTextbox.ForeColor = System.Drawing.Color.Black;
+            this.widthTextbox.FocusedLineColor = System.Drawing.Color.White;
+            this.widthTextbox.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.widthTextbox.ForeColor = System.Drawing.Color.White;
             this.widthTextbox.LineColor = System.Drawing.Color.Gainsboro;
+            this.widthTextbox.LineSize = 1;
             this.widthTextbox.Location = new System.Drawing.Point(200, 66);
             this.widthTextbox.Name = "widthTextbox";
             this.widthTextbox.PasswordChar = '\0';
-            this.widthTextbox.Size = new System.Drawing.Size(160, 26);
+            this.widthTextbox.Size = new System.Drawing.Size(160, 30);
             this.widthTextbox.TabIndex = 3;
             // 
             // lengthTextbox
             // 
-            this.lengthTextbox.BackColor = System.Drawing.Color.White;
+            this.lengthTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
             this.lengthTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.lengthTextbox.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.lengthTextbox.Font = new System.Drawing.Font("Rockwell", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lengthTextbox.ForeColor = System.Drawing.Color.Black;
+            this.lengthTextbox.FocusedLineColor = System.Drawing.Color.White;
+            this.lengthTextbox.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lengthTextbox.ForeColor = System.Drawing.Color.White;
             this.lengthTextbox.LineColor = System.Drawing.Color.Gainsboro;
+            this.lengthTextbox.LineSize = 1;
             this.lengthTextbox.Location = new System.Drawing.Point(200, 99);
             this.lengthTextbox.Name = "lengthTextbox";
             this.lengthTextbox.PasswordChar = '\0';
-            this.lengthTextbox.Size = new System.Drawing.Size(160, 26);
+            this.lengthTextbox.Size = new System.Drawing.Size(160, 30);
             this.lengthTextbox.TabIndex = 4;
             // 
             // gunaDragControl1
@@ -150,7 +152,7 @@
             ".",
             "?",
             "/"});
-            this.simbolCombobox.Location = new System.Drawing.Point(200, 131);
+            this.simbolCombobox.Location = new System.Drawing.Point(200, 136);
             this.simbolCombobox.Name = "simbolCombobox";
             this.simbolCombobox.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.simbolCombobox.OnHoverItemForeColor = System.Drawing.Color.White;

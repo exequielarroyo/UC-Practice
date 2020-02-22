@@ -37,6 +37,7 @@
             this.compareButton = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaGradientPanel1 = new Guna.UI.WinForms.GunaGradientPanel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaGradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,8 +45,8 @@
             // 
             this.Width.AutoSize = true;
             this.Width.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Width.ForeColor = System.Drawing.Color.Silver;
-            this.Width.Location = new System.Drawing.Point(14, 90);
+            this.Width.ForeColor = System.Drawing.Color.White;
+            this.Width.Location = new System.Drawing.Point(42, 94);
             this.Width.Name = "Width";
             this.Width.Size = new System.Drawing.Size(137, 23);
             this.Width.TabIndex = 0;
@@ -55,8 +56,8 @@
             // 
             this.Height.AutoSize = true;
             this.Height.Font = new System.Drawing.Font("Rockwell", 15.75F);
-            this.Height.ForeColor = System.Drawing.Color.Silver;
-            this.Height.Location = new System.Drawing.Point(14, 133);
+            this.Height.ForeColor = System.Drawing.Color.White;
+            this.Height.Location = new System.Drawing.Point(14, 137);
             this.Height.Name = "Height";
             this.Height.Size = new System.Drawing.Size(165, 23);
             this.Height.TabIndex = 1;
@@ -64,40 +65,43 @@
             // 
             // firstNumberTextbox
             // 
-            this.firstNumberTextbox.BackColor = System.Drawing.Color.White;
+            this.firstNumberTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
             this.firstNumberTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.firstNumberTextbox.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.firstNumberTextbox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.firstNumberTextbox.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.firstNumberTextbox.ForeColor = System.Drawing.Color.White;
             this.firstNumberTextbox.LineColor = System.Drawing.Color.Gainsboro;
+            this.firstNumberTextbox.LineSize = 1;
             this.firstNumberTextbox.Location = new System.Drawing.Point(226, 87);
             this.firstNumberTextbox.Name = "firstNumberTextbox";
             this.firstNumberTextbox.PasswordChar = '\0';
-            this.firstNumberTextbox.Size = new System.Drawing.Size(160, 26);
+            this.firstNumberTextbox.Size = new System.Drawing.Size(160, 30);
             this.firstNumberTextbox.TabIndex = 2;
             // 
             // secondNumberTextbox
             // 
-            this.secondNumberTextbox.BackColor = System.Drawing.Color.White;
+            this.secondNumberTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
             this.secondNumberTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.secondNumberTextbox.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.secondNumberTextbox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.secondNumberTextbox.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.secondNumberTextbox.ForeColor = System.Drawing.Color.White;
             this.secondNumberTextbox.LineColor = System.Drawing.Color.Gainsboro;
+            this.secondNumberTextbox.LineSize = 1;
             this.secondNumberTextbox.Location = new System.Drawing.Point(226, 130);
             this.secondNumberTextbox.Name = "secondNumberTextbox";
             this.secondNumberTextbox.PasswordChar = '\0';
-            this.secondNumberTextbox.Size = new System.Drawing.Size(160, 26);
+            this.secondNumberTextbox.Size = new System.Drawing.Size(160, 30);
             this.secondNumberTextbox.TabIndex = 3;
             // 
             // resultLabel
             // 
             this.resultLabel.AutoSize = true;
-            this.resultLabel.Font = new System.Drawing.Font("Rockwell", 15.75F);
+            this.resultLabel.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resultLabel.ForeColor = System.Drawing.Color.Silver;
-            this.resultLabel.Location = new System.Drawing.Point(179, 187);
+            this.resultLabel.Location = new System.Drawing.Point(200, 187);
             this.resultLabel.Name = "resultLabel";
-            this.resultLabel.Size = new System.Drawing.Size(45, 23);
+            this.resultLabel.Size = new System.Drawing.Size(0, 19);
             this.resultLabel.TabIndex = 5;
-            this.resultLabel.Text = "-----";
             // 
             // compareButton
             // 
@@ -118,7 +122,7 @@
             this.compareButton.Image = null;
             this.compareButton.ImageSize = new System.Drawing.Size(20, 20);
             this.compareButton.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.compareButton.Location = new System.Drawing.Point(302, 234);
+            this.compareButton.Location = new System.Drawing.Point(304, 236);
             this.compareButton.Name = "compareButton";
             this.compareButton.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
             this.compareButton.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -160,11 +164,24 @@
             this.gunaLabel1.TabIndex = 0;
             this.gunaLabel1.Text = "COMPARISON";
             // 
+            // gunaLabel2
+            // 
+            this.gunaLabel2.AutoSize = true;
+            this.gunaLabel2.Font = new System.Drawing.Font("Rockwell", 15.75F);
+            this.gunaLabel2.ForeColor = System.Drawing.Color.Silver;
+            this.gunaLabel2.Location = new System.Drawing.Point(104, 187);
+            this.gunaLabel2.Name = "gunaLabel2";
+            this.gunaLabel2.Size = new System.Drawing.Size(80, 23);
+            this.gunaLabel2.TabIndex = 8;
+            this.gunaLabel2.Text = "Result :";
+            this.gunaLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Comparison
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
+            this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.gunaGradientPanel1);
             this.Controls.Add(this.compareButton);
             this.Controls.Add(this.resultLabel);
@@ -191,5 +208,6 @@
         private Guna.UI.WinForms.GunaAdvenceButton compareButton;
         private Guna.UI.WinForms.GunaGradientPanel gunaGradientPanel1;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
+        private Guna.UI.WinForms.GunaLabel gunaLabel2;
     }
 }

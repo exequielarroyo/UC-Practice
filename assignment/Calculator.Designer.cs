@@ -529,14 +529,14 @@
             this.resultTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(131)))), ((int)(((byte)(212)))));
             this.resultTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.resultTextbox.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.resultTextbox.Font = new System.Drawing.Font("Rockwell", 15.75F);
+            this.resultTextbox.Font = new System.Drawing.Font("LCDMono2", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resultTextbox.ForeColor = System.Drawing.Color.White;
             this.resultTextbox.LineColor = System.Drawing.Color.Silver;
             this.resultTextbox.LineSize = 2;
             this.resultTextbox.Location = new System.Drawing.Point(58, 58);
             this.resultTextbox.Name = "resultTextbox";
             this.resultTextbox.PasswordChar = '\0';
-            this.resultTextbox.Size = new System.Drawing.Size(328, 37);
+            this.resultTextbox.Size = new System.Drawing.Size(328, 38);
             this.resultTextbox.TabIndex = 21;
             this.resultTextbox.Text = "0 ";
             this.resultTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -546,11 +546,11 @@
             // 
             this.equalLabel.AutoSize = true;
             this.equalLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(131)))), ((int)(((byte)(212)))));
-            this.equalLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.equalLabel.Font = new System.Drawing.Font("LCDMono2", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.equalLabel.ForeColor = System.Drawing.Color.White;
-            this.equalLabel.Location = new System.Drawing.Point(58, 58);
+            this.equalLabel.Location = new System.Drawing.Point(65, 67);
             this.equalLabel.Name = "equalLabel";
-            this.equalLabel.Size = new System.Drawing.Size(53, 21);
+            this.equalLabel.Size = new System.Drawing.Size(55, 14);
             this.equalLabel.TabIndex = 22;
             this.equalLabel.Text = "Result";
             this.equalLabel.Click += new System.EventHandler(this.equalLabel_Click);

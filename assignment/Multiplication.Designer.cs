@@ -37,6 +37,7 @@
             this.calcuButton = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaGradientPanel1 = new Guna.UI.WinForms.GunaGradientPanel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaGradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +46,7 @@
             this.firsnumberLabel.AutoSize = true;
             this.firsnumberLabel.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.firsnumberLabel.ForeColor = System.Drawing.Color.White;
-            this.firsnumberLabel.Location = new System.Drawing.Point(30, 86);
+            this.firsnumberLabel.Location = new System.Drawing.Point(42, 94);
             this.firsnumberLabel.Name = "firsnumberLabel";
             this.firsnumberLabel.Size = new System.Drawing.Size(137, 23);
             this.firsnumberLabel.TabIndex = 1;
@@ -56,7 +57,7 @@
             this.secondnumberLabel.AutoSize = true;
             this.secondnumberLabel.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondnumberLabel.ForeColor = System.Drawing.Color.White;
-            this.secondnumberLabel.Location = new System.Drawing.Point(30, 134);
+            this.secondnumberLabel.Location = new System.Drawing.Point(14, 137);
             this.secondnumberLabel.Name = "secondnumberLabel";
             this.secondnumberLabel.Size = new System.Drawing.Size(165, 23);
             this.secondnumberLabel.TabIndex = 2;
@@ -67,13 +68,14 @@
             this.firstnumberTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
             this.firstnumberTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.firstnumberTextbox.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.firstnumberTextbox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.firstnumberTextbox.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold);
             this.firstnumberTextbox.ForeColor = System.Drawing.Color.White;
             this.firstnumberTextbox.LineColor = System.Drawing.Color.Gainsboro;
-            this.firstnumberTextbox.Location = new System.Drawing.Point(229, 83);
+            this.firstnumberTextbox.LineSize = 1;
+            this.firstnumberTextbox.Location = new System.Drawing.Point(226, 87);
             this.firstnumberTextbox.Name = "firstnumberTextbox";
             this.firstnumberTextbox.PasswordChar = '\0';
-            this.firstnumberTextbox.Size = new System.Drawing.Size(160, 26);
+            this.firstnumberTextbox.Size = new System.Drawing.Size(160, 30);
             this.firstnumberTextbox.TabIndex = 3;
             // 
             // secondnumberTextbox
@@ -81,13 +83,14 @@
             this.secondnumberTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
             this.secondnumberTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.secondnumberTextbox.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.secondnumberTextbox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.secondnumberTextbox.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold);
             this.secondnumberTextbox.ForeColor = System.Drawing.Color.White;
             this.secondnumberTextbox.LineColor = System.Drawing.Color.Gainsboro;
-            this.secondnumberTextbox.Location = new System.Drawing.Point(229, 131);
+            this.secondnumberTextbox.LineSize = 1;
+            this.secondnumberTextbox.Location = new System.Drawing.Point(226, 130);
             this.secondnumberTextbox.Name = "secondnumberTextbox";
             this.secondnumberTextbox.PasswordChar = '\0';
-            this.secondnumberTextbox.Size = new System.Drawing.Size(160, 26);
+            this.secondnumberTextbox.Size = new System.Drawing.Size(160, 30);
             this.secondnumberTextbox.TabIndex = 4;
             // 
             // answerLabel
@@ -95,7 +98,7 @@
             this.answerLabel.AutoSize = true;
             this.answerLabel.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.answerLabel.ForeColor = System.Drawing.Color.White;
-            this.answerLabel.Location = new System.Drawing.Point(179, 195);
+            this.answerLabel.Location = new System.Drawing.Point(222, 187);
             this.answerLabel.Name = "answerLabel";
             this.answerLabel.Size = new System.Drawing.Size(45, 23);
             this.answerLabel.TabIndex = 5;
@@ -162,11 +165,24 @@
             this.gunaLabel1.TabIndex = 0;
             this.gunaLabel1.Text = "MULTIPLICATION";
             // 
+            // gunaLabel2
+            // 
+            this.gunaLabel2.AutoSize = true;
+            this.gunaLabel2.Font = new System.Drawing.Font("Rockwell", 15.75F);
+            this.gunaLabel2.ForeColor = System.Drawing.Color.Silver;
+            this.gunaLabel2.Location = new System.Drawing.Point(104, 187);
+            this.gunaLabel2.Name = "gunaLabel2";
+            this.gunaLabel2.Size = new System.Drawing.Size(80, 23);
+            this.gunaLabel2.TabIndex = 9;
+            this.gunaLabel2.Text = "Result :";
+            this.gunaLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Multiplication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
+            this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.gunaGradientPanel1);
             this.Controls.Add(this.calcuButton);
             this.Controls.Add(this.answerLabel);
@@ -193,5 +209,6 @@
         private Guna.UI.WinForms.GunaAdvenceButton calcuButton;
         private Guna.UI.WinForms.GunaGradientPanel gunaGradientPanel1;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
+        private Guna.UI.WinForms.GunaLabel gunaLabel2;
     }
 }
