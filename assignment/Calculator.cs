@@ -54,6 +54,10 @@ namespace assignment
         //_____________________OPERATION_________________________//
         private void BtnPlus_Click(object sender, EventArgs e)
         {
+            if (equalLabel.Text == firstNumber)
+            {
+                firstNumber = Convert.ToString(equal);
+            }
             operation = '+';
             isOperation = true;
             isDecimal = false;
@@ -87,6 +91,7 @@ namespace assignment
         public static double equal = 0;
         private void Btn1Equal_Click(object sender, EventArgs e)
         {
+            resultTextbox.Text = "0";
             switch (operation)
             {
                 case '+':
@@ -103,6 +108,11 @@ namespace assignment
                     break;
             }
             equalLabel.Text = Convert.ToString(equal);
+            firstNumber = "";
+            secondNumber = "";
+            operation = ' ';
+            isOperation = false;
+            isDecimal = false;
         }
 
         private void BtnClear1_Click(object sender, EventArgs e)
@@ -349,6 +359,11 @@ namespace assignment
             {
                 e.Handled = true;
             }
+        }
+
+        private void equalLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
