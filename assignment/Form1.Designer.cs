@@ -38,12 +38,12 @@
             this.MathButton = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.mainPan = new Guna.UI.WinForms.GunaPanel();
-            this.BtnExit = new Guna.UI.WinForms.GunaImageButton();
-            this.CLEARbtn = new Guna.UI.WinForms.GunaGradientButton();
             this.nested1 = new assignment.Nested();
             this.multiplication1 = new assignment.Multiplication();
             this.comparison1 = new assignment.Comparison();
             this.calculator1 = new assignment.Calculator();
+            this.BtnExit = new Guna.UI.WinForms.GunaImageButton();
+            this.CLEARbtn = new Guna.UI.WinForms.GunaGradientButton();
             this.sideMenu.SuspendLayout();
             this.MathSubPanel.SuspendLayout();
             this.mainPan.SuspendLayout();
@@ -178,14 +178,48 @@
             // 
             // mainPan
             // 
+            this.mainPan.Controls.Add(this.calculator1);
             this.mainPan.Controls.Add(this.nested1);
             this.mainPan.Controls.Add(this.multiplication1);
             this.mainPan.Controls.Add(this.comparison1);
-            this.mainPan.Controls.Add(this.calculator1);
             this.mainPan.Location = new System.Drawing.Point(210, 76);
             this.mainPan.Name = "mainPan";
             this.mainPan.Size = new System.Drawing.Size(428, 292);
             this.mainPan.TabIndex = 2;
+            // 
+            // nested1
+            // 
+            this.nested1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
+            this.nested1.Font = new System.Drawing.Font("Rockwell", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nested1.ForeColor = System.Drawing.Color.White;
+            this.nested1.Location = new System.Drawing.Point(0, 0);
+            this.nested1.Name = "nested1";
+            this.nested1.Size = new System.Drawing.Size(428, 292);
+            this.nested1.TabIndex = 3;
+            // 
+            // multiplication1
+            // 
+            this.multiplication1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
+            this.multiplication1.Location = new System.Drawing.Point(0, 0);
+            this.multiplication1.Name = "multiplication1";
+            this.multiplication1.Size = new System.Drawing.Size(428, 292);
+            this.multiplication1.TabIndex = 2;
+            // 
+            // comparison1
+            // 
+            this.comparison1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
+            this.comparison1.Location = new System.Drawing.Point(0, 0);
+            this.comparison1.Name = "comparison1";
+            this.comparison1.Size = new System.Drawing.Size(428, 292);
+            this.comparison1.TabIndex = 1;
+            // 
+            // calculator1
+            // 
+            this.calculator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
+            this.calculator1.Location = new System.Drawing.Point(0, 0);
+            this.calculator1.Name = "calculator1";
+            this.calculator1.Size = new System.Drawing.Size(428, 292);
+            this.calculator1.TabIndex = 0;
             // 
             // BtnExit
             // 
@@ -228,43 +262,6 @@
             this.CLEARbtn.TabIndex = 5;
             this.CLEARbtn.Text = "CLEAR";
             this.CLEARbtn.Click += new System.EventHandler(this.CLEARbtn_Click);
-            // 
-            // nested1
-            // 
-            this.nested1.BackColor = System.Drawing.Color.Black;
-            this.nested1.Font = new System.Drawing.Font("Rockwell", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nested1.ForeColor = System.Drawing.Color.White;
-            this.nested1.Location = new System.Drawing.Point(0, 0);
-            this.nested1.Name = "nested1";
-            this.nested1.Size = new System.Drawing.Size(428, 292);
-            this.nested1.TabIndex = 3;
-            // 
-            // multiplication1
-            // 
-            this.multiplication1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
-            this.multiplication1.Location = new System.Drawing.Point(0, 0);
-            this.multiplication1.Name = "multiplication1";
-            this.multiplication1.Size = new System.Drawing.Size(428, 292);
-            this.multiplication1.TabIndex = 2;
-            // 
-            // comparison1
-            // 
-            this.comparison1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(25)))), ((int)(((byte)(26)))));
-            this.comparison1.Location = new System.Drawing.Point(0, 0);
-            this.comparison1.Name = "comparison1";
-            this.comparison1.Size = new System.Drawing.Size(428, 292);
-            this.comparison1.TabIndex = 1;
-            // 
-            // calculator1
-            // 
-            this.calculator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
-            this.calculator1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("calculator1.BackgroundImage")));
-            this.calculator1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.calculator1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.calculator1.Location = new System.Drawing.Point(0, 0);
-            this.calculator1.Name = "calculator1";
-            this.calculator1.Size = new System.Drawing.Size(428, 292);
-            this.calculator1.TabIndex = 0;
             // 
             // Menu
             // 

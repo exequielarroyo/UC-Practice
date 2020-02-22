@@ -222,11 +222,11 @@
             this.gunaLabel4.AutoSize = true;
             this.gunaLabel4.Font = new System.Drawing.Font("Rockwell", 15.75F);
             this.gunaLabel4.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel4.Location = new System.Drawing.Point(132, 18);
+            this.gunaLabel4.Location = new System.Drawing.Point(164, 20);
             this.gunaLabel4.Name = "gunaLabel4";
-            this.gunaLabel4.Size = new System.Drawing.Size(184, 23);
+            this.gunaLabel4.Size = new System.Drawing.Size(89, 23);
             this.gunaLabel4.TabIndex = 0;
-            this.gunaLabel4.Text = "MULTIPLICATION";
+            this.gunaLabel4.Text = "NESTED";
             // 
             // Nested
             // 
