@@ -38,10 +38,10 @@
             this.MathButton = new Guna.UI.WinForms.GunaGradientButton();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.mainPan = new Guna.UI.WinForms.GunaPanel();
+            this.calculator1 = new assignment.Calculator();
             this.nested1 = new assignment.Nested();
             this.multiplication1 = new assignment.Multiplication();
             this.comparison1 = new assignment.Comparison();
-            this.calculator1 = new assignment.Calculator();
             this.BtnExit = new Guna.UI.WinForms.GunaImageButton();
             this.CLEARbtn = new Guna.UI.WinForms.GunaGradientButton();
             this.sideMenu.SuspendLayout();
@@ -81,6 +81,7 @@
             this.button4.Dock = System.Windows.Forms.DockStyle.Top;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.button4.Location = new System.Drawing.Point(0, 138);
             this.button4.Name = "button4";
@@ -97,6 +98,7 @@
             this.button3.Dock = System.Windows.Forms.DockStyle.Top;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.button3.Location = new System.Drawing.Point(0, 92);
             this.button3.Name = "button3";
@@ -113,6 +115,7 @@
             this.button2.Dock = System.Windows.Forms.DockStyle.Top;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.button2.Location = new System.Drawing.Point(0, 46);
             this.button2.Name = "button2";
@@ -129,6 +132,7 @@
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
@@ -149,7 +153,7 @@
             this.MathButton.DialogResult = System.Windows.Forms.DialogResult.None;
             this.MathButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.MathButton.FocusedColor = System.Drawing.Color.Empty;
-            this.MathButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MathButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MathButton.ForeColor = System.Drawing.Color.White;
             this.MathButton.Image = null;
             this.MathButton.ImageSize = new System.Drawing.Size(20, 20);
@@ -165,6 +169,7 @@
             this.MathButton.Size = new System.Drawing.Size(161, 52);
             this.MathButton.TabIndex = 2;
             this.MathButton.Text = "Math";
+            this.MathButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.MathButton.Click += new System.EventHandler(this.MathButton_Click);
             // 
             // gunaPanel1
@@ -186,6 +191,15 @@
             this.mainPan.Name = "mainPan";
             this.mainPan.Size = new System.Drawing.Size(428, 292);
             this.mainPan.TabIndex = 2;
+            // 
+            // calculator1
+            // 
+            this.calculator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
+            this.calculator1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.calculator1.Location = new System.Drawing.Point(0, 0);
+            this.calculator1.Name = "calculator1";
+            this.calculator1.Size = new System.Drawing.Size(428, 292);
+            this.calculator1.TabIndex = 0;
             // 
             // nested1
             // 
@@ -213,23 +227,15 @@
             this.comparison1.Size = new System.Drawing.Size(428, 292);
             this.comparison1.TabIndex = 1;
             // 
-            // calculator1
-            // 
-            this.calculator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(50)))), ((int)(((byte)(62)))));
-            this.calculator1.Location = new System.Drawing.Point(0, 0);
-            this.calculator1.Name = "calculator1";
-            this.calculator1.Size = new System.Drawing.Size(428, 292);
-            this.calculator1.TabIndex = 0;
-            // 
             // BtnExit
             // 
             this.BtnExit.BackColor = System.Drawing.Color.Transparent;
             this.BtnExit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnExit.BackgroundImage")));
-            this.BtnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BtnExit.DialogResult = System.Windows.Forms.DialogResult.None;
             this.BtnExit.Image = null;
             this.BtnExit.ImageSize = new System.Drawing.Size(40, 40);
-            this.BtnExit.Location = new System.Drawing.Point(657, 12);
+            this.BtnExit.Location = new System.Drawing.Point(670, 0);
             this.BtnExit.Name = "BtnExit";
             this.BtnExit.OnHoverImage = null;
             this.BtnExit.OnHoverImageOffset = new System.Drawing.Point(0, 0);
@@ -250,7 +256,7 @@
             this.CLEARbtn.ForeColor = System.Drawing.Color.White;
             this.CLEARbtn.Image = null;
             this.CLEARbtn.ImageSize = new System.Drawing.Size(20, 20);
-            this.CLEARbtn.Location = new System.Drawing.Point(601, 392);
+            this.CLEARbtn.Location = new System.Drawing.Point(614, 404);
             this.CLEARbtn.Name = "CLEARbtn";
             this.CLEARbtn.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
             this.CLEARbtn.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
