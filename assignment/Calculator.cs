@@ -350,5 +350,10 @@ namespace assignment
                 e.Handled = true;
             }
         }
+
+        private void equalLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

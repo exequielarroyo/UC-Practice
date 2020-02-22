@@ -135,4 +135,14 @@
   <metadata name="info.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="gunaGradientPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD7SURBVChTLdDZcoJQFETR0+fjU6lUBisxiLMijsEJUdBY
+        +bVOX+R9PfRuQ78gRnsi2RCLObGZ0HZ92jGinVu06pV2f6KhdxY8CP4ILgSntO2AdhAsPhv4HOCFGB6J
+        aUakS2KV0LKhYPyA5TvtN8BuSQxyYrIVXAnOBEe0veCpTbsI3l4E40rwJLgjZmtimdI2Y+3s0fIAtTNA
+        j690Bfl4T1eQN0EQRB4RCsJVO71zo2unK8iTTDAEJYSCcOwQ2onqTTC6NzCnK8jnYaeggqAgFF+C2lnD
+        bkUfCmqn10Gp4EiwSygI5Ydg+4+uIB9oZw11vIKgoMfOb+LS4j+78+UaCyW9fAAAAABJRU5ErkJggg==
+</value>
+  </data>
 </root>

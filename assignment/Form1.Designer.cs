@@ -40,10 +40,10 @@
             this.mainPan = new Guna.UI.WinForms.GunaPanel();
             this.BtnExit = new Guna.UI.WinForms.GunaImageButton();
             this.CLEARbtn = new Guna.UI.WinForms.GunaGradientButton();
+            this.nested1 = new assignment.Nested();
             this.multiplication1 = new assignment.Multiplication();
             this.comparison1 = new assignment.Comparison();
             this.calculator1 = new assignment.Calculator();
-            this.nested1 = new assignment.Nested();
             this.sideMenu.SuspendLayout();
             this.MathSubPanel.SuspendLayout();
             this.mainPan.SuspendLayout();
@@ -229,6 +229,15 @@
             this.CLEARbtn.Text = "CLEAR";
             this.CLEARbtn.Click += new System.EventHandler(this.CLEARbtn_Click);
             // 
+            // nested1
+            // 
+            this.nested1.BackColor = System.Drawing.Color.Black;
+            this.nested1.ForeColor = System.Drawing.Color.White;
+            this.nested1.Location = new System.Drawing.Point(0, 0);
+            this.nested1.Name = "nested1";
+            this.nested1.Size = new System.Drawing.Size(428, 292);
+            this.nested1.TabIndex = 3;
+            // 
             // multiplication1
             // 
             this.multiplication1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
@@ -252,15 +261,6 @@
             this.calculator1.Name = "calculator1";
             this.calculator1.Size = new System.Drawing.Size(428, 292);
             this.calculator1.TabIndex = 0;
-            // 
-            // nested1
-            // 
-            this.nested1.BackColor = System.Drawing.Color.Black;
-            this.nested1.ForeColor = System.Drawing.Color.White;
-            this.nested1.Location = new System.Drawing.Point(0, 0);
-            this.nested1.Name = "nested1";
-            this.nested1.Size = new System.Drawing.Size(428, 292);
-            this.nested1.TabIndex = 3;
             // 
             // Menu
             // 
