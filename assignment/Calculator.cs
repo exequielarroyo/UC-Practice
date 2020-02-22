@@ -92,21 +92,29 @@ namespace assignment
         private void Btn1Equal_Click(object sender, EventArgs e)
         {
             resultTextbox.Text = "0";
-            switch (operation)
+            try
             {
-                case '+':
-                    equal = Convert.ToDouble(firstNumber) + Convert.ToDouble(secondNumber);
-                    break;
-                case '-':
-                    equal = Convert.ToDouble(firstNumber) - Convert.ToDouble(secondNumber);
-                    break;
-                case '*':
-                    equal = Convert.ToDouble(firstNumber) * Convert.ToDouble(secondNumber);
-                    break;
-                case '/':
-                    equal = Convert.ToDouble(firstNumber) / Convert.ToDouble(secondNumber);
-                    break;
+                switch (operation)
+                {
+                    case '+':
+                        equal = Convert.ToDouble(firstNumber) + Convert.ToDouble(secondNumber);
+                        break;
+                    case '-':
+                        equal = Convert.ToDouble(firstNumber) - Convert.ToDouble(secondNumber);
+                        break;
+                    case '*':
+                        equal = Convert.ToDouble(firstNumber) * Convert.ToDouble(secondNumber);
+                        break;
+                    case '/':
+                        equal = Convert.ToDouble(firstNumber) / Convert.ToDouble(secondNumber);
+                        break;
+                }
             }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
+            
             equalLabel.Text = Convert.ToString(equal);
             firstNumber = "";
             secondNumber = "";

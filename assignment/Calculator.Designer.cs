@@ -546,11 +546,11 @@
             // 
             this.equalLabel.AutoSize = true;
             this.equalLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(131)))), ((int)(((byte)(212)))));
-            this.equalLabel.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.equalLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.equalLabel.ForeColor = System.Drawing.Color.White;
             this.equalLabel.Location = new System.Drawing.Point(58, 58);
             this.equalLabel.Name = "equalLabel";
-            this.equalLabel.Size = new System.Drawing.Size(39, 15);
+            this.equalLabel.Size = new System.Drawing.Size(53, 21);
             this.equalLabel.TabIndex = 22;
             this.equalLabel.Text = "Result";
             this.equalLabel.Click += new System.EventHandler(this.equalLabel_Click);
