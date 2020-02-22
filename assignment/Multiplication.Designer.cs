@@ -64,7 +64,7 @@
             // 
             // firstnumberTextbox
             // 
-            this.firstnumberTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.firstnumberTextbox.BackColor = System.Drawing.Color.White;
             this.firstnumberTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.firstnumberTextbox.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.firstnumberTextbox.Font = new System.Drawing.Font("Segoe UI", 9F);
@@ -78,7 +78,7 @@
             // 
             // secondnumberTextbox
             // 
-            this.secondnumberTextbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.secondnumberTextbox.BackColor = System.Drawing.Color.White;
             this.secondnumberTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.secondnumberTextbox.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.secondnumberTextbox.Font = new System.Drawing.Font("Segoe UI", 9F);

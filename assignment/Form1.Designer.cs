@@ -232,6 +232,7 @@
             // nested1
             // 
             this.nested1.BackColor = System.Drawing.Color.Black;
+            this.nested1.Font = new System.Drawing.Font("Rockwell", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nested1.ForeColor = System.Drawing.Color.White;
             this.nested1.Location = new System.Drawing.Point(0, 0);
             this.nested1.Name = "nested1";
@@ -257,6 +258,9 @@
             // calculator1
             // 
             this.calculator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.calculator1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("calculator1.BackgroundImage")));
+            this.calculator1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.calculator1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.calculator1.Location = new System.Drawing.Point(0, 0);
             this.calculator1.Name = "calculator1";
             this.calculator1.Size = new System.Drawing.Size(428, 292);
@@ -267,6 +271,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(699, 446);
             this.Controls.Add(this.CLEARbtn);
             this.Controls.Add(this.BtnExit);
