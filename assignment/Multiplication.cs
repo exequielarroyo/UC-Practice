@@ -21,9 +21,14 @@ namespace assignment
         {
             int first = Convert.ToInt32(firstnumberTextbox.Text);
             int second = Convert.ToInt32(secondnumberTextbox.Text);
-            int result = first * second;
+            int result = 0;
 
-            answerLabel.Text = Convert.ToString(result);
+            for (int i = 0; i < second; i++)
+            {
+                result += first;
+            }
+
+            answerLabel.Text = first + " * " + second + " = " + Convert.ToString(result);
         }
     }
 }
